@@ -16,16 +16,18 @@ body {
   flex-direction: column;
   justify-content: center;
   margin: auto;
+  border-width: 2px;
 }
 
 #display-div {
-  width: 100%;
   background-color: #92140C;
-  padding-left: 8px;
+  padding-right: 10px;
+  width: auto;
   display: flex;
   border: none;
   line-height: normal;
   font-size: 75px;
+  justify-content: flex-end;
 }
 
 #title {
